@@ -1,0 +1,34 @@
+.App {
+    text-align: center;
+  }
+  
+  .student-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .student-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .attendance-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .attendance-button.present {
+    background-color: #2ecc71;
+  }
+  
+  .attendance-button.absent {
+    background-color: #e74c3c;
+  }
+  
